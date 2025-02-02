@@ -1,0 +1,40 @@
+crossfit-tracker/
+├── public/
+│   ├── index.html
+│   └── assets/
+│       └── images/
+├── src/
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Navbar.js
+│   │   │   ├── Footer.js
+│   │   │   └── Layout.js
+│   │   ├── social/
+│   │   │   ├── FeedPost.js
+│   │   │   └── FriendsList.js
+│   │   ├── profile/
+│   │   │   ├── ProfileHeader.js
+│   │   │   ├── PRList.js
+│   │   │   └── WorkoutHistory.js
+│   │   ├── analytics/
+│   │   │   ├── WorkoutStats.js
+│   │   │   ├── MovementAnalysis.js
+│   │   │   └── Charts.js
+│   │   └── utilities/
+│   │       ├── WodGenerator.js
+│   │       └── timers/
+│   │           ├── AmrapTimer.js
+│   │           ├── EmomTimer.js
+│   │           └── TabataTimer.js
+│   ├── pages/
+│   │   ├── Feed.js
+│   │   ├── Profile.js
+│   │   ├── Analytics.js
+│   │   └── Utilities.js
+│   ├── styles/
+│   │   ├── globals.css
+│   │   └── components/
+│   ├── utils/
+│   │   ├── timerUtils.js
+│   │   └── wodGenerator.js
+│   └── App.js 
